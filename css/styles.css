@@ -1,0 +1,152 @@
+*{
+	border:0;
+	box-sizing: border-box; 
+	list-style-type: none;
+}
+
+a:link {
+	color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+body{
+	background-color: black; 
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	opacity: .5;
+}
+
+nav:hover{
+	opacity: 1;
+	-webkit-transition: .5s;
+   	transition: .5s;
+}
+
+@media only screen and (max-width: 992px) {
+    .player{
+    	margin-top: -40px;
+    	margin-bottom: -60px;
+    }
+
+    .anchor {
+		position: absolute;
+		transform: translateY(-100vh);
+	}
+}
+
+.abprog{
+	background: url("../img/bfi.jpg") center fixed;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-30vh);
+}
+
+.bgblack{
+	background-color: black; 
+}
+
+.bggrey{
+	background-color: #D3D3D3;
+}
+
+.bgfav{
+	background-color: #BD3637;
+}
+
+.buttonhover1{
+	border: 2px solid #141414;
+	border-radius: 9px;
+}
+
+.buttonhover1:hover{
+	border: 2px solid #00FFD1;
+	border-radius: 9px;
+}
+
+.buttonhover2{
+	border: 2px solid #141414;
+	border-radius: 9px;
+}
+
+.buttonhover2:hover{
+	border: 2px solid #24FF00;
+	border-radius: 9px;
+}
+
+.buttonhover3{
+	border: 2px solid #141414;
+	border-radius: 9px;
+}
+
+.buttonhover3:hover{
+	border: 2px solid #FF00E5;
+	border-radius: 9px;
+}
+
+.buttonhover4{
+	border: 2px solid #141414;
+	border-radius: 9px;
+}
+
+.buttonhover4:hover{
+	border: 2px solid #FFF500;
+	border-radius: 9px;
+}
+
+.buttonhover5{
+	border: 2px solid #141414;
+	border-radius: 9px;
+}
+
+.buttonhover5:hover{
+	border: 2px solid #0066FF;
+	border-radius: 9px;;
+}
+
+.marr{
+	opacity: 0;
+	width: 0%;
+	height: 0%;
+}
+
+.navhover:hover{
+	background-color: #bd3637;
+	-webkit-transition: .5s;
+   	transition: .5s;
+}
+
+.navhover:hover .marr{
+	opacity: 1;
+	width: 5%;
+	height: 5%;
+	-webkit-transition: .5s;
+   	transition: .5s;
+}
+
+.nav-item {
+	background-color: #141414;
+}
+
+.subt{
+	font-size: 70%;
+}
+
+.thumbnail:hover{
+	background-color: #141414;
+	opacity: 0.5;
+	-webkit-transition: .5s;
+   	transition: .5s;
+}

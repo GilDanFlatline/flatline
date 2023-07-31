@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sketching for a living</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+
+	<script src="https://kit.fontawesome.com/1621375127.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="home">
+
+		<nav class="container sticky-top text-center">
+			<div class="row">
+
+				<div class="col-4 p-0">
+					<a href="#home">
+						<div class="navhover p-3">
+							<h5 class="fw-normal">INICIO</h5>
+							<h6 class="fw-light subt">HOME</h6>
+							<img src="img/S1.png" class="marr">
+						</div>
+					</a>
+				</div>
+
+				<div class="col-4 p-0">
+					<a href="#workbook">
+						<div class="navhover p-3">
+							<h5 class="fw-normal">PORTAFOLIO</h5>
+							<h6 class="fw-light subt">WORKBOOK</h6>
+							<img src="img/S1.png" class="marr">
+						</div>
+					</a>
+				</div>
+
+				<div class="col-4 p-0">
+					<a href="#about">
+						<div class="navhover p-3">
+							<h5 class="fw-normal">ACERCA DE MI</h5>
+							<h6 class="fw-light subt">ABOUT</h6>
+							<img src="img/S1.png" class="marr">
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</nav>
+
+
+
+		<div class="container mb-5 text-center">
+			<row class="row d-flex justify-content-center">
+				<div class="col-md-8 my-5">
+					<img src="img/m1.gif" class="img-fluid">
+				</div>
+			</row>
+		</div>
+
+
+
+		<div class="container col-12 mb-md-5 mb-4">
+			<div class="row d-flex justify-content-center">
+				<ul class="col-8 col-md-10 mb-md-5 mb-4 nav nav-pills d-flex justify-content-around" id="pills-tab" role="tablist">
+				  <li class="col-5 col-md-2 nav-item mb-md-0 mb-3" role="presentation">
+				    <button class="nav-link active buttonhover1 col-12 text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Branding</button>
+				  </li>
+				  <li class="col-5 col-md-2 nav-item mb-md-0 mb-3" role="presentation">
+				    <button class="nav-link buttonhover2 col-12 text-white" id="pills-rrss-tab" data-bs-toggle="pill" data-bs-target="#pills-rrss" type="button" role="tab" aria-controls="pills-rrss" aria-selected="true">RRSS</button>
+				  </li>
+				  <li class="col-5 col-md-2 nav-item mb-md-0 mb-3" role="presentation">
+				    <button class="nav-link buttonhover3 col-12 text-white" id="pills-3D-tab" data-bs-toggle="pill" data-bs-target="#pills-3D" type="button" role="tab" aria-controls="pills-3D" aria-selected="true">3D</button>
+				  </li>
+				  <li class="col-5 col-md-2 nav-item mb-md-0 mb-3" role="presentation">
+				    <button class="nav-link buttonhover4 col-12 text-white" id="pills-Editorial-tab" data-bs-toggle="pill" data-bs-target="#pills-Editorial" type="button" role="tab" aria-controls="pills-Editorial" aria-selected="true">Editorial</button>
+				  </li>
+				  <li class="col-5 col-md-2 nav-item mb-md-0 mb-3" role="presentation">
+				    <button class="nav-link buttonhover5 col-12 text-white" id="pills-motion-tab" data-bs-toggle="pill" data-bs-target="#pills-motion" type="button" role="tab" aria-controls="pills-motion" aria-selected="true">Motion</button>
+				  </li>
+				</ul>
+			</div>
+
+			<span class="anchor" id="workbook"></span>
+
+			<div class="row text-center">
+				<div class="tab-content" id="pills-tabContent">
+
+					<!--Brand-->
+	  				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+	  					<div class="row align-items-center d-flex justify-content-center">
+		  					<div class="col-md-4 col-8 text-white">
+		  						<h1 class="fw-bolder mb-4 text-start">Branding</h1>
+		  						<p class="mb-4 text-start">Elaboración de identidad gráfica para el lanzamiento de productos y campañas publicitarias, siguiendo los lineamientos de cada cliente.</p>
+		  						<ul class="list-unstyled mb-4 row ">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand1thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand2thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand3thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand4thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  						</ul>
+		  						<ul class="list-unstyled row">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand5thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand6thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand7thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/brand1thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceBrand(this.src)">
+		  							</li>
+		  						</ul>
+							</div>
+		  					<div class="col-md-6 col-12 mt-md-0 mt-4">
+								<img class="col-md-7 col-8" id="windowbrand" src="img/WB1.gif" >
+							</div>
+						</div>
+	  				</div>
+	  				<!--EndBrand-->
+
+
+	  				<!--RRSS-->
+	  				<div class="tab-pane fade show" id="pills-rrss" role="tabpanel" aria-labelledby="pills-rrss-tab">
+	  					<div class="row align-items-center d-flex justify-content-center">
+		  					<div class="col-md-4 col-8 text-white">
+		  						<h1 class="fw-bolder mb-4 text-start">Redes sociales</h1>
+		  						<p class="mb-4 text-start">Creación de diversos materiales para las plataformas digitales modernas, manteniendo presente el objetivo de cada campaña.</p>
+		  						<ul class="list-unstyled mb-4 row ">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post1thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post2thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post3thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post4thumb.png" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  						</ul>
+		  						<ul class="list-unstyled row">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post5thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post6thumb.png" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post9thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/post11thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceRRSS(this.src)">
+		  							</li>
+		  						</ul>
+							</div>
+		  					<div class="col-md-6 col-12 mt-lg-0 mt-4">
+								<img class="col-md-7 col-8" id="windowrrss" src="img/WB2.gif" >
+							</div>
+						</div>
+	  				</div>
+	  				<!--EndRRSS-->
+
+
+	  				<!--3D-->
+	  				<div class="tab-pane fade show" id="pills-3D" role="tabpanel" aria-labelledby="pills-3D-tab">
+	  					<div class="row align-items-center d-flex justify-content-center">
+		  					<div class="col-md-4 col-8 text-white">
+		  						<h1 class="fw-bolder mb-4 text-start">Modelado 3D</h1>
+		  						<p class="mb-4 text-start">Elaboración de modelos tridimensionales orientados a objetos, buscando un alto nivel de realismo para ser utilziados en otros materiales publicitarios.</p>
+		  						<ul class="list-unstyled mb-4 row ">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d1thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d2thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d3thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d10thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  						</ul>
+		  						<ul class="list-unstyled row">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d11thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d6thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d7thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/3d8thumb.jpg" class="img-fluid thumbnail" onclick="Replace3D(this.src)">
+		  							</li>
+		  						</ul>
+							</div>
+		  					<div class="col-md-6 col-12 mt-lg-0 mt-4">
+								<img class="col-md-11 col-8" id="window3D" src="img/WB3.gif" >
+							</div>
+						</div>
+	  				</div>
+	  				<!--End3D-->
+
+
+	  				<!--Editorial-->
+	  				<div class="tab-pane fade show" id="pills-Editorial" role="tabpanel" aria-labelledby="pills-Editorial-tab">
+	  					<div class="row align-items-center d-flex justify-content-center">
+		  					<div class="col-md-4 col-8 text-white">
+		  						<h1 class="fw-bolder mb-4 text-start">Editorial</h1>
+		  						<p class="mb-4 text-start">Diseño, maquetación y armado de materiales editoriales con distintos propósitos, combinando un alto nivel estético y practicidad para el usuario.</p>
+		  						<ul class="list-unstyled mb-4 row ">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial1thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial2thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial3thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial4thumb.png" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  						</ul>
+		  						<ul class="list-unstyled row">
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial5thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial6thumb.png" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  							<li class="col" role="button">
+		  								<img src="img/workbook/editorial7thumb.jpg" class="img-fluid thumbnail" onclick="ReplaceEditorial(this.src)">
+		  							</li>
+		  							<li class="col" role="">
+		  							</li>
+		  						</ul>
+							</div>
+		  					<div class="col-md-6 col-12 mt-lg-0 mt-4">
+								<img class="col-md-10 col-8" id="windowEditorial" src="img/WB4.gif" >
+							</div>
+						</div>
+	  				</div>
+	  				<!--EndEditorial-->
+
+
+	  				<!--Motion-->
+	  				<div class="tab-pane fade" id="pills-motion" role="tabpanel" aria-labelledby="pills-motion-tab">
+	  					<div class="row align-items-center d-flex justify-content-center">
+		  					<div class="col-md-4 col-8 text-white">
+		  						<h1 class="fw-bolder mb-2 text-start">Motion</h1>
+		  						<p class="mb-4 text-start">Edición de vídeo y/o animación en Motion Graphics, brindando un toque de creatividad único y usando al máximo los elementos de cada marca.</p>
+		  						<ul class="list-unstyled mb-4 row">
+		  							<li class="col"><a href="https://vimeo.com/843741151?share=copy" target="_blank"><img src="img/workbook/thumb.jpg" class="img-fluid thumbnail"></a></li>
+		  							<li class="col"><a href="https://vimeo.com/843739850?share=copy" target="_blank"><img src="img/workbook/thumb2.jpg" class="img-fluid thumbnail"></a></li>
+		  							<li class="col"><a href="https://vimeo.com/manage/videos/713924723" target="_blank"><img src="img/workbook/thumb3.jpg" class="img-fluid thumbnail"></a></li>
+		  							<li class="col"><a href="https://www.facebook.com/puntadelcielooficial/videos/624517702626057" target="_blank"><img src="img/workbook/thumb4.jpg" class="img-fluid thumbnail"></a></li>
+		  						</ul>
+		  						<ul class="row list-unstyled">
+		  							<li class="col"><a href="https://www.instagram.com/tv/CN-qwoAHbXF/" target="_blank"><img src="img/workbook/thumb5.jpg" class="img-fluid thumbnail"></a></li>
+		  							<li class="col"><a href="https://www.tiktok.com/@coopervisionlatam/video/7011163160941989126?is_copy_url=1&is_from_webapp=v1" target="_blank"><img src="img/workbook/thumb6.jpg" class="img-fluid thumbnail"></a></li>
+		  							<li class="col"><a href="https://www.facebook.com/watch/?v=1257323371366599" target="_blank"><img src="img/workbook/thumb7.jpg" class="img-fluid thumbnail"></a></li>
+		  							<li class="col"><a href="https://www.instagram.com/tv/CYos1srIS-m/" target="_blank"><img src="img/workbook/thumb8.jpg" class="img-fluid thumbnail"></a></li>
+		  						</ul>
+							</div>
+		  					<div class="col-md-6 col-10">
+								<iframe src="https://player.vimeo.com/video/676985009?h=2df8745237" class="player" frameborder="0" style="width: 100%; height:50vh;"></iframe>
+							</div>
+						</div>
+	  				</div>
+	  				<!--EndMotion-->
+	  			</div>
+			</div>
+		</div>
+
+
+
+	<div class="bggrey">
+		<div class="col-12 container text-center">
+			<row class="row">
+				<div class="my-md-5 my-3">
+					<h2>Adobe</h2>
+				</div>
+			</row>
+			<row class="row">
+				<div class="col-12">
+					<img src="img/bar5.gif" alt="" class="col-2">
+					<img src="img/bar3.gif" alt="" class="col-2">
+					<img src="img/bar1.gif" alt="" class="col-2">
+					<img src="img/bar2.gif" alt="" class="col-2">
+					<img src="img/bar4.gif" alt="" class="col-2">
+				</div>
+			</row>
+			<row class="row">
+				<div class="mt-md-5 mt-4">
+					<h2>Otro Software:</h2>
+				</div>
+			</row>
+		</div>
+	</div>
+
+	<div class="container-fluid bggrey p-0">
+		<div class="col-12 mb-2">
+			<img src="img/AB1.gif" alt="" class="col-12">
+		</div>
+
+		<div class="abprog col-12">
+				<img src="img/AB2.gif" alt="" class="col-12">
+		</div>
+	</div>
+
+
+	<div id="about">
+		<div class="container mt-5">
+			<row class="align-items-center row d-flex justify-content-center">
+				<div class="col-md-4 col-9 fw-bold mb-4 text-white text-center text-md-start">
+					<h1 class="fw-bolder">Hola,</h1>
+					<h5 class="fw-normal">
+						mi nombre es Daniel, pero también<br> me llaman Gil (por mi apellido).<br> Aquí puedes conocerme<br> un poco más.
+					</h5>
+					<br>
+					<a href="mailto:betterdg@hotmail.com">
+						<button type="button" class="btn btn-light">
+							<div class="d-flex">
+								<div class="">
+						        	<i class="fa-solid fa-paper-plane"></i>
+						        </div>
+						        <div class="ps-2">
+									<h5 class="text-black"><strong>CONTÁCTAME</strong></h5>
+								</div>
+							</div>
+						</button>
+					</a>
+				</div>
+				<div class="col-md-5 col-6 mt-2 mt-md-0 text-center">
+					<img src="img/pfp.gif" class="img-fluid col-md-8">
+				</div>
+			</row>
+			<row class="row  d-flex justify-content-center">
+				<div class="col-md-3 col-4">
+					<img src="img/ab3.jpg" class="img-fluid" onmouseover="abgif1(this)" onmouseout="abgif1out(this)">
+				</div>
+				<div class="col-md-3 col-4">
+					<img src="img/ab4.jpg" class="img-fluid" onmouseover="abgif2(this)" onmouseout="abgif2out(this)">
+				</div>
+				<div class="col-md-3 col-4">
+					<img src="img/ab5.jpg" class="img-fluid" onmouseover="abgif3(this)" onmouseout="abgif3out(this)">
+				</div>
+			</row>
+		</div>
+	</div>
+
+
+	<div class="bgfav">
+		<div class="container text-center">
+			<row class="align-items-center p-5 row text-white">
+				<div class="fw-bold mt-0 mb-0 mt-md-5 mb-md-5">
+				<h1 class="fw-bolder">Color Favorito <3</h1>
+				<h4 class="fw-normal">#BD3637</h4>
+				</div>
+			</row>
+		</div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="js/javacsript.js"></script>
+</body>
+
+</html>
