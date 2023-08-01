@@ -47,25 +47,25 @@ function ReplaceEditorial(clicked_src){
 }
 
 function abgif1(hovered_src){
-     hovered_src.setAttribute('src', 'img/ab3.gif');
+     hovered_src.setAttribute('src', 'img/AB3.gif');
 }
 
 function abgif1out(hovered_src){
-     hovered_src.setAttribute('src', 'img/ab3.jpg');
+     hovered_src.setAttribute('src', 'img/AB3.jpg');
 }
 
 function abgif2(hovered_src){
-     hovered_src.setAttribute('src', 'img/ab4.gif');
+     hovered_src.setAttribute('src', 'img/AB4.gif');
 }
 
 function abgif2out(hovered_src){
-     hovered_src.setAttribute('src', 'img/ab4.jpg');
+     hovered_src.setAttribute('src', 'img/AB4.jpg');
 }
 
 function abgif3(hovered_src){
-     hovered_src.setAttribute('src', 'img/ab5.gif');
+     hovered_src.setAttribute('src', 'img/AB5.gif');
 }
 
 function abgif3out(hovered_src){
-     hovered_src.setAttribute('src', 'img/ab5.jpg');
+     hovered_src.setAttribute('src', 'img/AB5.jpg');
 }
